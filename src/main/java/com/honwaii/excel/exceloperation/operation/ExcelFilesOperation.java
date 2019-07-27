@@ -24,7 +24,6 @@ public class ExcelFilesOperation {
         }
     }
 
-
     private static void readAndWriteContent(String path) throws IOException {
         File xlsFile = new File(path);
         FileInputStream fis = new FileInputStream(xlsFile);
